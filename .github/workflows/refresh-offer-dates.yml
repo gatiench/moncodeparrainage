@@ -1,0 +1,32 @@
+name: Mettre a jour les offres
+
+on:
+  schedule:
+    - cron: "15 3 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le depot
+        uses: actions/checkout@v4
+
+      - name: Configurer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Actualiser les dates et titres SEO
+        run: node scripts/refresh-offer-dates.mjs
+
+      - name: Publier la mise a jour mensuelle
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add offers.js index.html sitemap.xml code-lucya-cnp code-parrainage-boursorama code-parrainage-fortuneo
+          git diff --cached --quiet || git commit -m "chore: actualiser les dates des offres"
+          git push
