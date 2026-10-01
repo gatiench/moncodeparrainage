@@ -7,9 +7,9 @@ export const offers = [
     bonusLabel: "Prime selon conditions",
     bonusAmount: null,
     currency: "EUR",
-    searchTitle: "Code Lucya CNP - septembre 2026",
-    searchDescription: "Retrouvez le code de parrainage Lucya CNP et les conditions de l'offre de septembre 2026.",
-    periodLabel: "Septembre 2026",
+    searchTitle: "Code Lucya CNP - octobre 2026",
+    searchDescription: "Retrouvez le code de parrainage Lucya CNP et les conditions de l'offre de octobre 2026.",
+    periodLabel: "octobre 2026",
     validThrough: null,
     description: "Une offre de parrainage Lucya à consulter selon les conditions en vigueur.",
     referralUrl: "https://www.assurancevie.com/informations/ouvrir-un-contrat.html?utm_source=Parrainage_Espace-client&utm_medium=Espace-client&utm_campaign=Parrainage_Espace-client",
@@ -18,7 +18,7 @@ export const offers = [
     conditions: "Montant et conditions à vérifier sur la page officielle Lucya.",
     active: true,
     featured: true,
-    updatedAt: "2026-09-20"
+    updatedAt: "2026-10-01"
   },
   {
     id: "boursorama",
@@ -28,9 +28,9 @@ export const offers = [
     bonusLabel: "Accès par lien direct",
     bonusAmount: null,
     currency: "EUR",
-    searchTitle: "Code parrainage Boursorama - septembre 2026",
-    searchDescription: "Retrouvez le code de parrainage Boursorama et les conditions de l'offre de septembre 2026.",
-    periodLabel: "Septembre 2026",
+    searchTitle: "Code parrainage Boursorama - octobre 2026",
+    searchDescription: "Retrouvez le code de parrainage Boursorama et les conditions de l'offre de octobre 2026.",
+    periodLabel: "octobre 2026",
     validThrough: null,
     description: "Une offre de parrainage Boursorama à consulter selon les conditions en vigueur.",
     referralUrl: "https://bour.so/p/0gvHMoxzM6o",
@@ -39,7 +39,7 @@ export const offers = [
     conditions: "Aucun code à saisir : utilisez le lien de parrainage direct.",
     active: true,
     featured: true,
-    updatedAt: "2026-09-20"
+    updatedAt: "2026-10-01"
   },
   {
     id: "fortuneo",
@@ -49,9 +49,9 @@ export const offers = [
     bonusLabel: "Prime selon conditions",
     bonusAmount: null,
     currency: "EUR",
-    searchTitle: "Code parrainage Fortuneo - septembre 2026",
-    searchDescription: "Retrouvez le code de parrainage Fortuneo et les conditions de l'offre de septembre 2026.",
-    periodLabel: "Septembre 2026",
+    searchTitle: "Code parrainage Fortuneo - octobre 2026",
+    searchDescription: "Retrouvez le code de parrainage Fortuneo et les conditions de l'offre de octobre 2026.",
+    periodLabel: "octobre 2026",
     validThrough: null,
     description: "Une offre de parrainage Fortuneo à consulter selon les conditions en vigueur.",
     referralUrl: "https://www.fortuneo.fr/compte-bancaire/souscrire/choix-type-compte",
@@ -60,6 +60,6 @@ export const offers = [
     conditions: "Montant et conditions à vérifier sur la page officielle Fortuneo.",
     active: true,
     featured: true,
-    updatedAt: "2026-09-20"
+    updatedAt: "2026-10-01"
   }
 ];
